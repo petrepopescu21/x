@@ -1,0 +1,33 @@
+{
+  "datastore": "@dadi/api-filestore",
+  "app": {
+    "name": "DADI API Repo Default"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8081,
+    "protocol": "http"
+  },
+  "publicUrl": {
+    "host": "tbd.local",
+    "port": 80
+  },
+  "caching": {
+    "directory": {
+      "enabled": true,
+      "path": "./cache/api"
+    },
+    "redis": {
+      "enabled": false
+    }
+  },
+  "media": {
+    "storage": "disk",
+    "basePath": "workspace/media"
+  },
+  "env": "development",
+  "auth": {
+    "datastore": "@dadi/api-filestore",
+    "database": "dadiapi"
+  }
+}

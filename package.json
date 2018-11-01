@@ -1,0 +1,8 @@
+{
+  "name": "my-api",
+  "main": "server.js",
+  "dependencies": {
+    "@dadi/api": "4.x",
+    "@dadi/api-filestore": "^0.11.0"
+  }
+}
